@@ -1,0 +1,27 @@
+problems 1:
+  #to print two numbers
+a=10
+b=20
+print(a+b)
+
+# problem-2
+z=int(input())
+a=int(input("enter number"))
+print(a%z)
+
+#problem-3
+a=input()
+print(type(a))
+  
+#problem-4
+a=34
+b=80
+if a>b:
+    print("True")
+else:
+    print("False")    
+print("The average of these two numbers is",(a+b)/2) 
+#problem-5
+s=int(input("Enter a number:"))
+print("The square of the number is:",(s*s))
+#for square of a number you can also use a**2 but not a^2
