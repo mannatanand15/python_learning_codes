@@ -1,0 +1,16 @@
+the strings in python are imnutable becoz the valud can't be changed
+#problem 1:
+name=input("Enter name")
+print(f"Good afternoon{name}")
+#PROBLEM-2
+n=input("enter your name")
+d=int(input("enter date"))
+letter='''
+Dear name
+You are seleccted
+date'''
+print(letter.replace("name","mannat").repalce(""))
+m="my name is  mannat"
+
+print(m.replace("  "," "))
+ 
