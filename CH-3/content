@@ -1,0 +1,32 @@
+ name="Mannat"
+nameshort=name[0:3] #start from index 0 all the way till 3(ecxlusing 3)
+#[ind_start:ind_end]
+
+#negative splicing
+#we can covert negative indexes into correspong positive 
+print(name[:4])# nothing in front it starts from 0
+print(name[3:])# till end
+print(name[-1:-4])
+#convert to psitive as[4:1]
+#[1:7:2]-> start from index 1 and end at index 6 by skipping 2 place
+#[start,end,skips]
+
+#FUNCTIONS
+#LEN= gives length of the function
+#endswith = tells if the str ends with that or not
+print(name.endswith("nat")) #if correct it return True
+print(len(name))
+print(name.capitalize()) #capitalises only starting words 
+
+word="hello python"
+new=word.replace("python","world")  #to replacd the word in the string
+print(new)
+c=word.count("l") #count the number of times the element is present
+print(c)
+
+
+#ESCAPE SEQUENCE CHARACTERS
+# USE OF [\n] to change line
+#[\t] to enter tab space
+print("I am in \"india\"") #\" is used to print "a" 
+# \\ to actually use backslash in code
