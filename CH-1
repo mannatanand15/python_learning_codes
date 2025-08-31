@@ -1,0 +1,16 @@
+a=1    #a is an integer
+b=5.22    #b is a floating point number
+c="harry"   #c is a string
+d=False  #d is a boolean variable
+e=None  #e is a none type variable
+1==1 #camparison operator
+b+=3 #increment the value of b by 3 and then it to b
+print(b)
+#comparison operators
+#to compare two values we use == and to assign the value of any variable to a value we use =
+h=5<4
+print(h)
+
+#LOGICAL OPERATORS
+print("True or False is ",True or False)
+print("True or True  is ",True and False)
