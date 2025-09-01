@@ -8,6 +8,7 @@ print(a+b)
 z=int(input())
 a=int(input("enter number"))
 print(a%z)
+#modulo is used to find remainder of the number
 
 #problem-3
 a=input()
