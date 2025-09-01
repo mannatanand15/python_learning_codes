@@ -2,6 +2,7 @@ the strings in python are imnutable becoz the valud can't be changed
 #problem 1:
 name=input("Enter name")
 print(f"Good afternoon{name}")
+
 #PROBLEM-2
 n=input("enter your name")
 d=int(input("enter date"))
