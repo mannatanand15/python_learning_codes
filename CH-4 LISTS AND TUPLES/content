@@ -1,0 +1,38 @@
+LISTS AND TUPLES
+lists are used to store variable data types and unlike strings lists are immutatble(changes can occur in lists)
+
+
+guy=("harry")
+guy[2]="c"
+print(guy)
+
+THIS CODE WILL GIVE ERROR IN ASSIGNING VALUES BECOZ STRINGS ARE IMMUTABLE  
+  
+guy=["harry","rohan"]
+guy[0]="m"
+print(guy)
+THIS CODE WILL WORK BECOZ LISTS ARE MUTABLE AND SQAURE BRACKETS ARE USED FOR LISTS
+
+ l1= [10,20,30,40,50]
+print(l1.append("mannat"))#adds element to the end of the list
+l1.insert(index,item to be inserted)  #adds the new item at that index in the list 
+
+FOR A LIST WHICH CONTAINS ALL INTEGER VALUES AND NO STRINGS WE CAN ALSO USE SORT FUNCTION
+l1.sort()  #arranges all the elements(integer values) in the list in ascending order
+l1.reverse()  #reverses the order of the elements of the list
+
+TUPLES
+tuples are immutable and can't be changed.tuples are also enclosed in brackets and separated by commas.
+
+a=(1)
+print(type(a))
+#returns output as int
+
+a=(1,)
+print(type(a))
+#returns output as tuple
+
+#SPLICING OF TUPLE
+my_tuple=(1,2,3,4,5,6)
+slice=my_tuple[1:4]   #splicing of tuple from index 1 to index 4(excludong index 4)
+print(slice)
