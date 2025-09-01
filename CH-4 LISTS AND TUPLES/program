@@ -1,0 +1,39 @@
+#PROBLEM-1
+fruits=[]
+f1=input("Enter fruit name:")
+fruits.append(f1)
+f2=input("Enter fruit name:")
+fruits.append(f2)
+f3=input("Enter fruit name:")
+fruits.append(f3)
+f4=input("Enter fruit name:")
+fruits.append(f4)
+f5=input("Enter fruit name:")
+fruits.append(f5)
+f6=input("Enter fruit name:")
+fruits.append(f6)
+f7=input("Enter fruit name:")
+fruits.append(f7)
+print(fruits)
+
+#PROBLEM-2
+marks=[]
+m1=int(input("Enter marks of student:"))
+marks.append(m1)
+m2=int(input("Enter marks of student:"))
+marks.append(m2)
+m3=int(input("Enter marks of student:"))
+marks.append(m3)
+m4=int(input("Enter marks of student:"))
+marks.append(m4)
+sorted=marks.sort()
+print(sorted)
+# the items of the list will n ot sorted unless specified as integer input
+
+#PROBLEM-3
+numbers=[1,2,3,4]
+print(sum(numbers))
+
+#PROBLEM-4
+a=(0,1,2,0,0)
+print(a.count(0))
