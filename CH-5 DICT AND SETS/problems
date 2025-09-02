@@ -1,0 +1,54 @@
+IMPORTANT CONCEPTS LEARNT:
+*PYTHON COMPARES THE VALUES OF INTEGERS AND FLOATING POINT NUMBERS AS ONE
+PROBLEM-4 {20,20.0} WILL BE CONSIDERED AS ONE VALUE BY THE SET
+SETS ARE UNORDERED,UNINDEXED AND VALUES CAN'T BE CHANGED.
+SETS CAN'T CONTAIN LISTS INSIDE THEM AS ELEMENTS
+
+
+# #PROBLEM-1
+# translation={
+#     "naam":"name",
+#     "jagah":"place"
+# }
+# print(type(translation))
+# print(translation)
+# word=input("Enter a word:")
+# print(translation[word]) #used to print the value of the key where the input acts a the key 
+
+# PROBLEM-2
+# a=set()
+# n1=int(input("Enter a number:"))
+# a.add(n1)
+# n2=int(input("Enter a number:"))
+# a.add(n2)
+# n3=int(input("Enter a number:"))
+# a.add(n3)
+# n4=int(input("Enter a number:"))
+# a.add(n4)
+# print(a)
+
+# #PROBLEM-3 
+# m={"18",18}
+# print(type(m))
+print(m)
+WE CAN PRINT 18 BOTH AS INTEGER AND AS STRING IN A SET
+THE REPRESENTATION DIFFRENCE BETWEEN SETS AND DICTIONARY IS THAT IN DICTIONARY IT HAS BOTH HEYS AND VALUES AND SEPARATED BY COMMAS
+
+#PROBLEM-4
+s=set() #empty set
+s.add(20)
+s.add(20.0)
+s.add("20")
+print(s)
+print(len(s))
+
+#problem-5
+S={}
+print(type(S))
+
+#PROBLEM-6 IMP PROGRAM
+dict={}
+name=input("Enter name:")
+lang=input("Enter language:")
+dict.update({name:lang})
+#in the update function the values of 
