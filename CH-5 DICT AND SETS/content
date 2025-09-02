@@ -17,3 +17,19 @@ print(marks.values())
   SETS:
 empty set is not created by set={} as this creates an empty dictionay
 to create empty set
+#to create an empty set
+s=set()
+print(type(s))
+#sets are used becoz its takes every input only once.no repetition of elements allowed.
+print(s)
+a={1,2,4,5,6} #sets are same as dictionary in representation
+print(len(a))
+a.remove(1) #to remove an element from the set
+a.pop() #removes a random element from the set
+print(a)
+a.clear() #to clear the set
+#SET UNION FUNCTION- used to join two sets
+p={1,2,3,4}
+q={3,4,5,6}
+print(p.union(q))
+print(p.intersection(q)) #used to give the common values between the two sets
